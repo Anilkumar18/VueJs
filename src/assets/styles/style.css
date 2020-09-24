@@ -214,8 +214,7 @@ button:focus,.btn-qty:focus {
     font-weight: 400;
 }
 img.img-fluid.your-cart {
-    width: 100px;
-    padding-right: 15px;
+    padding: 0 15px 15px 15px;
 }
 .content {
     flex: 1 0 0%;
@@ -236,7 +235,7 @@ span.fit-para {
     border: 2px solid #349acb;
     border-radius: 30px;
     flex: initial;
-    width: 35%;
+    width: 50%;
     background: transparent;
 }
 .line_item-qty #input_div .btn-qty{
@@ -263,6 +262,9 @@ span.fit-para {
     font-weight: 400;
     color: #333;
 }
+.productimg_list img{
+    width: 100%;
+}
 button.btn.btn-addcart {
     background-color: #333;
     width: 100%;
@@ -284,11 +286,7 @@ button.btn.btn-addcart {
 }
 .cart-title h5 {
     font-size: 14px;
-    font-weight: 500;
-    white-space: nowrap; 
-    width: 200px; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
+    font-weight: 500; 
     color: #7b7b7b;
 }
 #exampleModal4 .modal-header h3 {
@@ -341,7 +339,7 @@ a.btn.product_btn {
 }
 a.btn.product_btn.active{
     border: 2px solid #349acb;
-    color: #349acb;
+    color: #929da1;
 }
 .btn-protype,.btn-category{
     float: left;
